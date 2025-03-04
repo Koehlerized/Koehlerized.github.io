@@ -97,7 +97,7 @@ body {
     background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear var(--delay) infinite;
+    animation: animate 5s linear var(--delay) infinite;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -236,6 +236,109 @@ body {
     color: var(--bgColor);
 }
 
+.skills-box {
+    color: #FFFFFF;
+    background-color: #1a1b1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.chips {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.chip {
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+
+.chip-red {
+    background-color: red;
+}
+.chip-blue {
+    background-color: darkslateblue;
+}
+.chip-green {
+    background-color: green;
+}
+.chip-orange {
+    background-color: orangered;
+}
+.chip-yellow {
+    background-color: darkgoldenrod;
+}
+.chip-purple {
+    background-color: purple;
+}
+
+.tree-box {
+    color: #FFFFFF;
+    background-color: #25262b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tree-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.git-command {
+    font-weight: bold;
+}
+
+.tree-text {
+    font-size: 15px;
+    color: #909296;
+    margin-top: 5px;
+}
+
+.year-range {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.root {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tree-bubble {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border-color: orangered;
+    border-style: solid;
+    z-index: 2;
+}
+
+.root-line {
+    width: 2px;
+    height: 120px;
+    background-color: orangered;
+    position: absolute;
+    z-index: 1;
+}
+
+.root-line-new {
+    background-color: unset;
+    border-left: 2px dashed #909296;
+    width: 0px;
+}
+
+.tree-bubble-new {
+    border-color: #909296;
+    background-color: #25262b;
+}
 
 /*-----------------------parallax-----------------------*/
 /* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
